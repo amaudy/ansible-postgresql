@@ -2,7 +2,7 @@
 - name: Install Postgresql
   apt: 
     update_cache=yes
-    name=posgresql
+    name=postgresql
     state=present
 
 - name: Install libpq-dev. Need for psycopg
